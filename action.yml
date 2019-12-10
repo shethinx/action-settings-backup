@@ -1,0 +1,9 @@
+name: 'Shopify settings backup'
+author: 'Chris McKenzie'
+description: 'Backup settings_data and settings_schema'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'upload-cloud'
+  color: 'black'
